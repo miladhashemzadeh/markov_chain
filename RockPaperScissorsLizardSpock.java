@@ -3,9 +3,6 @@ package ai.rock_paper_markov_chain;
 import java.text.DecimalFormat;
 import java.util.List;
 import java.util.Random;
-import java.util.Scanner;
-
-import static ai.rock_paper_markov_chain.Item.*;
 
 public class RockPaperScissorsLizardSpock {
 
@@ -60,7 +57,7 @@ public class RockPaperScissorsLizardSpock {
 
     public void play() {
         init();
-        BadStrategistPlayer badPlayer = new BadStrategistPlayer();
+        SomeStrategiesPlayer badPlayer = new SomeStrategiesPlayer();
         System.out.print("Make your choice : ");
 
         for (int i = 0; i < 50; i++) {

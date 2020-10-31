@@ -3,7 +3,7 @@ package ai.rock_paper_markov_chain;
 import java.util.ArrayList;
 import java.util.Random;
 
-class BadStrategistPlayer {
+class SomeStrategiesPlayer {
 
     Item prv = Item.SCISSORS;
 
